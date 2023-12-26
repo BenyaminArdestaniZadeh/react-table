@@ -1,0 +1,46 @@
+.radix-themes {
+  --default-font-family: var(--ravi-font) !important;
+  --heading-font-family: var(--ravi-font) !important;
+  --code-font-family: var(--ravi-font) !important;
+  --strong-font-family: var(--ravi-font) !important;
+  --em-font-family: var(--ravi-font) !important;
+  --quote-font-family: var(--ravi-font) !important;
+  font-family: var(--ravi-font) !important;
+
+  --font-weight-light: 400 !important;
+  --font-weight-regular: 500 !important;
+  --font-weight-medium: 700 !important;
+  --font-weight-bold: 950 !important;
+
+  --font-size-1: 12px !important;
+  --font-size-2: 14px !important;
+  --font-size-3: 16px !important;
+  --font-size-4: 20px !important;
+  --font-size-5: 22px !important;
+  --font-size-6: 24px !important;
+  --font-size-7: 32px !important;
+  --font-size-8: 36px !important;
+  --font-size-9: 40px !important;
+
+  --line-height-1: 18px !important;
+  --line-height-2: normal !important;
+  --line-height-3: normal !important;
+  --line-height-4: normal !important;
+  --line-height-5: normal !important;
+  --line-height-6: normal !important;
+  --line-height-7: normal !important;
+  --line-height-8: normal !important;
+  --line-height-9: normal !important;
+
+  --letter-spacing-1: normal !important;
+  --letter-spacing-2: normal !important;
+  --letter-spacing-3: normal !important;
+  --letter-spacing-4: normal !important;
+  --letter-spacing-5: normal !important;
+  --letter-spacing-6: normal !important;
+  --letter-spacing-7: normal !important;
+  --letter-spacing-8: normal !important;
+  --letter-spacing-9: normal !important;
+
+  --container-4: 1440px !important;
+}

@@ -3,16 +3,18 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "@radix-ui/themes/styles.css";
 import "./theme.config.css";
+import { ravi } from "@/src/theme/font-config";
+
 //create theme.config.css file in app directory and add custom radix css inside that
 
 //create font config file for custom font
 
 //create metadata for app
 
-// export const metadata: Metadata = {
-//   title: "رده‌بندی",
-//   description: "پنل مدیریت رده‌بندی",
-// };
+export const metadata: Metadata = {
+  title: "react table",
+  description: "React Table",
+};
 
 export default function RootLayout({
   children,
@@ -20,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html className={ravi.variable} lang="fa" dir="rtl">
       <body>
         <Theme scaling={"100%"} radius={"large"}>
           {children}
